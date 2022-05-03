@@ -22,3 +22,8 @@ Por ejemplo:
 
 
 ![](https://i.imgur.com/NTW6JZ9.png)
+
+
+
+
+<a href="https://heric-olier.github.io/Encriptador-de-texto/"rel="nofollow" target="_blank">ir a la Pagina</a> 
