@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/4d63ed8f35.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador de Texto</title>
+  </head>
+
+  <body>
+    <main class="container">
+      <header class="header-btn">
+        <img src="images/logo.png" class="logo-title" />
+        <img src="images/logo_white.png" id="logo-title_white" />
+        <div class="container-social-darkMode">
+          <button class="switch-mode" id="switch-mode">
+            <span><i class="fa-solid fa-moon"></i></span>
+            <span><i class="fa-solid fa-sun"></i></span>
+          </button>
+        </div>
+      </header>
+
+      <!-- Campos de textos -->
+
+      <div class="section-container-main">
+        <div class="section-text-btn">
+          <div class="text-write">
+            <textarea
+              id="inputText"
+              class="input-text"
+              type="text"
+              placeholder="Ingrese el texto aqui"
+              textarea
+            ></textarea>
+          </div>
+          <p class="text-limit">
+            No se permiten mayusculas ni acentos, ni numeros
+          </p>
+
+          <div class="buttons">
+            <button
+              onclick="encriptText()"
+              class="btn"
+              id="encript"
+              type="submit"
+            >
+              Encriptar
+            </button>
+            <button
+              onclick="decryptText()"
+              class="btn"
+              id="decrypt"
+              type="submit"
+            >
+              Desencriptar
+            </button>
+            <button
+              onclick="copyToClipBoard()"
+              class="fa-solid fa-copy btn"
+              id="copy-text"
+              type="button"
+            ></button>
+          </div>
+        </div>
+
+        <div class="input-btn-content">
+          <div class="text-box disabled">
+            <p id="text-result"></p>
+          </div>
+          <div class="alert-message-box">
+            <img src="images/robot.png" id="robot-img" class="robot" />
+            <img src="images/robot_dm.png" id="robot-img_dm" class="robot_dm" />
+            <p class="alert-message">Ningún mensaje fue encontrado</p>
+            <p class="alert-message2">
+              Ingresa el mensaje que desees encriptar o desencriptar.
+            </p>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container-social">
+          <a
+            href="https://github.com/Heric-Olier"
+            rel="noreferrer"
+            target="_blank"
+            class="github"
+            ><i class="fa-brands fa-github"></i>Github</a
+          >
+          <a
+            href=" https://www.linkedin.com/in/heric-olier-36400b238/"
+            rel="noreferrer"
+            target="_blank"
+            class="linkedin"
+            ><i class="fa-brands fa-linkedin"></i>Linkedin</a
+          >
+        </div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
