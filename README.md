@@ -9,6 +9,9 @@
 ---
 
 En este primer desafio del curso se nos pidio hacer un codificador de texto usando las siguientes condiciones:
+
+---
+
 Las "llaves" de encriptación que utilizaremos son las siguientes:
 
 `La letra "e" es convertida para "enter"`
