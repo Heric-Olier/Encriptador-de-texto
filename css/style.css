@@ -1,5 +1,11 @@
+:root {
+    --color-violet: #5f19dd;
+    --color-black-dark: #171a25;
+    --color-white-bone: #f1f3f4;
+}
+
 body {
-  background-color: #5f19dd;
+  background-color: var(--color-violet);
   font-family: "Lato", sans-serif;
   display: flex;
   justify-content: center;
@@ -131,7 +137,7 @@ body.dark .text-write {
   font-family: "Lato";
   font-weight: 700;
   line-height: 120%;
-  color: #5f19dd;
+  color: var(--color-violet);
 }
 
 .section-container-main {
@@ -159,7 +165,7 @@ body.dark .text-write {
   background-size: 200% auto;
   font-weight: 700;
   font-size: 16px;
-  color: white;
+  color: var(--color-white-bone);
   border-radius: 10px;
   display: block;
   outline: none;
@@ -207,7 +213,7 @@ body.dark #encript {
   background-size: 200% auto;
   font-weight: 700;
   font-size: 16px;
-  color: white;
+  color: var(--color-white-bone);
   border-radius: 10px;
   display: block;
   border: none;
@@ -254,7 +260,7 @@ body.dark #decrypt {
   background-size: 200% auto;
   font-weight: 700;
   font-size: 16px;
-  color: white;
+  color: var(--color-white-bone);
   border-radius: 10px;
   display: block;
   border: none;
@@ -298,7 +304,7 @@ body.dark .input-btn-content {
 .alert-message {
   text-align: center;
   font-weight: 700;
-  color: black;
+  color: var(--color-black-dark);
   font-size: 23px;
 }
 
@@ -319,7 +325,7 @@ body.dark .alert-message2 {
 }
 
 body.dark .input-text {
-  color: white;
+  color: var(--color-white-bone);
 }
 
 ::placeholder {
@@ -340,7 +346,7 @@ body.dark ::placeholder {
 }
 
 body.dark #text-result {
-  color: white;
+  color: var(--color-white-bone);
 }
 
 .text-box {
@@ -356,7 +362,7 @@ body.dark #text-result {
 .text-limit {
   margin: 7px;
   text-align: center;
-  color: #000000;
+  color: var(--color-black-dark);
   font-size: 13px;
 }
 
@@ -371,7 +377,7 @@ body.dark .text-limit {
   display: none;
 }
 
-/*! <--------- Header section --------->*/
+/*! <--------- footer section --------->*/
 
 .github,
 .linkedin,
@@ -392,7 +398,7 @@ body.dark .text-limit {
 .twitter,
 .instagram {
   display: inline-block;
-  color: #5f19dd;
+  color: var(--color-violet);
   font-family: "Lato";
   font-weight: 700;
   text-decoration: none;
@@ -404,21 +410,21 @@ body.dark .text-limit {
 }
 
 body.dark .social-link {
-  color: white;
+  color: var(--color-white-bone);
 }
 
 .fa-github,
 .fa-linkedin,
 .fa-twitter-square,
 .fa-instagram-square {
-  color: #5f19dd;
+  color: var(--color-violet);
 }
 
 body.dark .fa-linkedin,
 body.dark .fa-twitter-square,
 body.dark .fa-instagram-square,
 body.dark .fa-github {
-  color: white;
+  color: var(--color-white-bone);
 }
 
 .container-social-darkMode {
