@@ -1,0 +1,23 @@
+body.dark {
+  background-image: linear-gradient(
+    to left top,
+    #1b212e,
+    #1c202d,
+    #1c202c,
+    #1d1f2b,
+    #1d1f2a,
+    #1f212c,
+    #21232e,
+    #232530,
+    #272a35,
+    #2c2e3b,
+    #303340,
+    #353846
+  );
+}
+
+body.dark .container {
+  background-color: #171a25;
+  -webkit-box-shadow: 0px 0px 8px 5px rgba(29, 27, 27, 0.062);
+  box-shadow: 0px 0px 8px 5px rgba(17, 17, 17, 0.075);
+}

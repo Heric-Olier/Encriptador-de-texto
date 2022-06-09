@@ -2,27 +2,45 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
+    <title>Encriptador de Texto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!---- fontawesome ---->
+    
+    <script src="https://kit.fontawesome.com/4d63ed8f35.js" crossorigin="anonymous"></script>
+
+    <!---- favicon ---->
+    
+    <link
+    rel="shortcut icon"
+    href="./images/logo-favicon-light.svg"
+    type="image/x-icon"/>
+    
+    
+    <!---- fonts ---->
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="shortcut icon" href=".images/favicon.png" type="image/x-icon">
-    <script
-      src="https://kit.fontawesome.com/4d63ed8f35.js"
-      crossorigin="anonymous"
-    ></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet"/>
 
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="responsive.css" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Encriptador de Texto</title>
+    <!---- styles ---->
+    
+    <link rel="stylesheet" href="./css/reset.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/responsive.css"/>
+    <link rel="stylesheet" href="./css/dark-mode.css"/>
+
   </head>
 
   <body>
+
+    <!---- Main sections ---->
+
     <main class="container">
+
+      <!---- Header ---->
+
       <header class="header-btn">
         <img src="images/logo.png" class="logo-title" />
         <img src="images/logo_white.png" id="logo-title_white" />
@@ -34,7 +52,7 @@
         </div>
       </header>
 
-      <!-- Campos de textos -->
+      <!-- field text sections -->
 
       <div class="section-container-main">
         <div class="section-text-btn">
@@ -50,6 +68,8 @@
           <p class="text-limit">
             No se permiten mayusculas ni acentos, ni numeros
           </p>
+
+          <!---- Buttons sections ---->
 
           <div class="buttons">
             <button
@@ -77,6 +97,8 @@
           </div>
         </div>
 
+        <!---- input sections ---->
+
         <div class="input-btn-content">
           <div class="text-box disabled">
             <p id="text-result"></p>
@@ -91,22 +113,36 @@
           </div>
         </div>
       </div>
+
+      <!---- Footer ---->
+
       <footer>
         <div class="container-social">
           <a
             href="https://github.com/Heric-Olier"
             rel="noreferrer"
             target="_blank"
-            class="github"
-            ><i class="fa-brands fa-github"></i>Github</a
-          >
+            class="github social-link"
+            ><i class="fa-brands fa-github"></i>Github</a>
           <a
             href=" https://www.linkedin.com/in/heric-olier-36400b238/"
             rel="noreferrer"
             target="_blank"
-            class="linkedin"
-            ><i class="fa-brands fa-linkedin"></i>Linkedin</a
-          >
+            class="linkedin social-link"
+            ><i class="fa-brands fa-linkedin"></i>Linkedin</a>
+           <a
+            href=" https://twitter.com/heric_olier"
+            rel="noreferrer"
+            target="_blank"
+            class="twitter social-link"
+            ><i class="fa-brands fa-twitter-square"></i>Twitter</a>
+            <a
+            href=" https://www.instagram.com/heric_olier/"
+            rel="noreferrer"
+            target="_blank"
+            class="instagram social-link"
+            ><i class="fa-brands fa-instagram-square"></i>Instagram</a>
+            
         </div>
       </footer>
     </main>
