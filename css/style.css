@@ -157,6 +157,7 @@ span {
   display: block;
   outline: none;
   border: none;
+  transition: all 0.2s ease-in-out;
   background-image: linear-gradient(
     to right,
     #9e69f5 0%,
@@ -169,6 +170,7 @@ span {
   background-position: right center;
   color: var(--color-white-bone);
   text-decoration: none;
+  transform: scale(1.12);
 }
 
 #decrypt {
@@ -192,18 +194,22 @@ span {
   border-radius: 10px;
   display: block;
   border: none;
+  transition: all 0.2s ease-in-out;
+  
 }
 
 #decrypt:hover {
   background-position: right center;
   color: var(--color-white-bone);
   text-decoration: none;
+  transform: scale(1.12);
 }
 
 #copy-text:hover {
   background-position: right center;
   color: var(--color-white-bone);
   text-decoration: none;
+  transform: scale(1.12);
 }
 
 #copy-text {
@@ -227,6 +233,7 @@ span {
   border-radius: 10px;
   display: block;
   border: none;
+  transition: all 0.2s ease-in-out;
 }
 
 .input-btn-content {
@@ -300,7 +307,15 @@ span {
 .linkedin,
 .twitter,
 .instagram {
-  margin-right: 8px;
+  transition: all 0.2s ease-in-out;
+  margin-right: 18px;
+}
+
+.github:hover,
+.linkedin:hover,
+.twitter:hover,
+.instagram:hover {
+  transform: scale(1.15);
 }
 
 .fa-github,
