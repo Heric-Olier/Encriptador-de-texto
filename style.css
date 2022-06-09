@@ -274,7 +274,7 @@ margin: 5px 15px;
 }
 
 #encript {
-
+    cursor: pointer;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
@@ -308,6 +308,7 @@ body.dark #encript {
 }
 
 #decrypt {
+    cursor: pointer;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
@@ -346,6 +347,7 @@ body.dark #decrypt {
 }
 
 #copy-text {
+    cursor: pointer;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
