@@ -1,7 +1,7 @@
 :root {
-    --color-violet: #5f19dd;
-    --color-black-dark: #171a25;
-    --color-white-bone: #f1f3f4;
+  --color-violet: #5f19dd;
+  --color-black-dark: #171a25;
+  --color-white-bone: #f5f7fa;
 }
 
 body {
@@ -16,51 +16,46 @@ body {
 /*! <--------- Header section --------->*/
 /*button dark mode switch*/
 .switch-mode {
-    background: #4615a0;
-    border-radius: 1000px;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    outline: none;
-    position: relative;
-    height: 30px;
-  }
-  
-  .switch-mode::after {
-    content: "";
-    display: block;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    background: #f1f1f1;
-    top: 0;
-    left: 0;
-    right: unset;
-    border-radius: 100px;
-    transition: 0.3s ease all;
-    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0, 0.2);
-  }
-  
-  .switch-mode.active::after {
-    background: #191920;
-    color: #000000;
-    right: 0;
-    left: unset;
-  }
+  background: #4615a0;
+  border-radius: 1000px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  outline: none;
+  position: relative;
+  height: 30px;
+}
 
-  span {
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    display: block;
-    background: none;
-    color: #fff;
-  }  
-  
-  body.dark .switch-mode {
-    background: #0e0f14;
-  }
-  
+.switch-mode::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: var(--color-white-bone);
+  top: 0;
+  left: 0;
+  right: unset;
+  border-radius: 100px;
+  transition: 0.3s ease all;
+  box-shadow: 0px 0px 2px 2px rgb(0, 0, 0, 0.2);
+}
+
+.switch-mode.active::after {
+  background: #191920;
+  color: #000000;
+  right: 0;
+  left: unset;
+}
+
+span {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  background: none;
+  color: var(--color-white-bone);
+}
 
 .header-btn {
   background-color: none;
@@ -94,7 +89,7 @@ body {
 .container {
   margin: 60px 0;
   padding: 20px 25px;
-  background-color: #f1f3f4;
+  background-color: var(--color-white-bone);
   -webkit-box-shadow: 0px 0px 8px 5px rgba(28, 18, 54, 0.33);
   box-shadow: 0px 0px 8px 5px rgba(28, 18, 54, 0.33);
   min-height: 700px;
@@ -102,8 +97,6 @@ body {
   border-radius: 20px;
   border: 12px;
 }
-
-
 
 .text-write {
   border: none;
@@ -116,12 +109,6 @@ body {
   width: 92%;
   margin: 50px auto;
   box-shadow: 0 0 25px -8px rgba(0, 0, 0, 0.185);
-}
-
-body.dark .text-write {
-  background-color: #222738;
-
-  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.075);
 }
 
 .input-text {
@@ -180,20 +167,8 @@ body.dark .text-write {
 
 #encript:hover {
   background-position: right center;
-  color: #fff;
+  color: var(--color-white-bone);
   text-decoration: none;
-}
-
-body.dark #encript {
-  box-shadow: 0 0 5px rgb(30, 30, 41);
-  outline: none;
-
-  background-image: linear-gradient(
-    to right,
-    #383d4b 0%,
-    #2f3441 51%,
-    #383d4b 100%
-  );
 }
 
 #decrypt {
@@ -221,25 +196,13 @@ body.dark #encript {
 
 #decrypt:hover {
   background-position: right center;
-  color: #fff;
+  color: var(--color-white-bone);
   text-decoration: none;
-}
-
-body.dark #decrypt {
-  box-shadow: 0 0 5px rgb(30, 30, 41);
-  outline: none;
-
-  background-image: linear-gradient(
-    to right,
-    #383d4b 0%,
-    #2f3441 51%,
-    #383d4b 100%
-  );
 }
 
 #copy-text:hover {
   background-position: right center;
-  color: #fff;
+  color: var(--color-white-bone);
   text-decoration: none;
 }
 
@@ -264,18 +227,6 @@ body.dark #decrypt {
   border-radius: 10px;
   display: block;
   border: none;
-}
-
-body.dark #copy-text {
-  box-shadow: 0 0 5px rgb(30, 30, 41);
-  outline: none;
-
-  background-image: linear-gradient(
-    to right,
-    #383d4b 0%,
-    #2f3441 51%,
-    #383d4b 100%
-  );
 }
 
 .input-btn-content {
@@ -309,7 +260,7 @@ body.dark .input-btn-content {
 }
 
 body.dark .alert-message {
-  color: rgba(255, 255, 255, 0.863);
+  color: var(--color-white-bone);
 }
 
 .alert-message2 {
@@ -321,7 +272,7 @@ body.dark .alert-message {
 }
 
 body.dark .alert-message2 {
-  color: rgba(255, 255, 255, 0.863);
+  color: var(--color-white-bone);
 }
 
 body.dark .input-text {
@@ -367,7 +318,7 @@ body.dark #text-result {
 }
 
 body.dark .text-limit {
-  color: rgba(255, 255, 255, 0.863);
+  color: var(--color-white-bone);
 }
 
 .robot,
@@ -433,7 +384,6 @@ body.dark .fa-github {
   align-items: center;
   justify-content: end;
 }
-
 
 footer {
   text-align: center;

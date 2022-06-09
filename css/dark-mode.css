@@ -16,8 +16,58 @@ body.dark {
   );
 }
 
+/*! <--------- Header section --------->*/
+
+body.dark .switch-mode {
+  background: #0e0f14;
+}
+
+/*! <--------- Main section --------->*/
+
 body.dark .container {
   background-color: #171a25;
   -webkit-box-shadow: 0px 0px 8px 5px rgba(29, 27, 27, 0.062);
   box-shadow: 0px 0px 8px 5px rgba(17, 17, 17, 0.075);
+}
+
+body.dark .text-write {
+  background-color: #222738;
+
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.075);
+}
+
+body.dark #encript {
+  box-shadow: 0 0 5px rgb(30, 30, 41);
+  outline: none;
+
+  background-image: linear-gradient(
+    to right,
+    #383d4b 0%,
+    #2f3441 51%,
+    #383d4b 100%
+  );
+}
+
+body.dark #decrypt {
+  box-shadow: 0 0 5px rgb(30, 30, 41);
+  outline: none;
+
+  background-image: linear-gradient(
+    to right,
+    #383d4b 0%,
+    #2f3441 51%,
+    #383d4b 100%
+  );
+}
+
+body.dark #copy-text {
+  box-shadow: 0 0 5px rgb(30, 30, 41);
+  outline: none;
+
+  background-image: linear-gradient(
+    to right,
+    #383d4b 0%,
+    #2f3441 51%,
+    #383d4b 100%
+  );
 }
