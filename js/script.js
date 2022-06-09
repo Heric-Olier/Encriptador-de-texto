@@ -2,7 +2,7 @@ const alertMessage = document.querySelector(".alert-message-box");
 const textBox = document.querySelector(".text-box");
 
 
-// funcion encrptar ----------------------------------------------------------------------------
+//*! <--------- Function encrypt --------->*/
 
 function encriptText() {
     let textResult = document.getElementById("inputText").value
@@ -29,7 +29,7 @@ function encriptText() {
 }
 
 
-// funcion desencriptar --------------------------------------------------------------------------
+//*! <--------- Function decrypt --------->*/
 
 function decryptText() {
     let textResultDec = document.getElementById("inputText").value
@@ -62,7 +62,7 @@ function decryptText() {
 }
 
 
-// boton de copiado --------------------------------------------------------------------------------
+//*! <--------- Function button copy --------->*/
 
 function copyToClipBoard() {
     let copyText = document.getElementById("text-result").textContent;
@@ -76,45 +76,6 @@ function copyToClipBoard() {
         }
     });
 }
-
-
-// Dark mode ----------------------------------------------------------------------------------------
-
-const btnSwitch = document.querySelector("#switch-mode");
-const imgSwitch = document.querySelector(".logo-title");
-const imgRobot = document.querySelector(".robot");
-const imgTitleWhite = document.querySelector("#logo-title_white");
-const imgRobotDarkMode = document.querySelector(".robot_dm");
-
-
-btnSwitch.addEventListener('click', () => {
-    document.body.classList.toggle("dark");
-    btnSwitch.classList.toggle("active");
-    if (imgSwitch.classList.contains('disable') && imgRobot.classList.contains('disable')) {
-        imgSwitch.classList.remove("disable");
-        imgTitleWhite.classList.remove("active");
-         imgRobot.classList.remove("disable");
-         imgRobotDarkMode.classList.remove("active");
-
-        imgSwitch.classList.add("active");
-        imgTitleWhite.classList.add("disable");
-        imgRobot.classList.add("active");
-        imgRobotDarkMode.classList.add("disable");
-    
-    } else {
-
-        imgSwitch.classList.remove("active");
-        imgTitleWhite.classList.remove("disable");
-        imgRobot.classList.remove("active");
-        imgRobotDarkMode.classList.remove("disable");
-
-        imgSwitch.classList.add("disable");
-        imgTitleWhite.classList.add("active");
-        imgRobot.classList.add("disable");
-        imgRobotDarkMode.classList.add("active");
-
-    }
-})
 
 
 
