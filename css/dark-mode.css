@@ -1,19 +1,5 @@
 body.dark {
-  background-image: linear-gradient(
-    to left top,
-    #1b212e,
-    #1c202d,
-    #1c202c,
-    #1d1f2b,
-    #1d1f2a,
-    #1f212c,
-    #21232e,
-    #232530,
-    #272a35,
-    #2c2e3b,
-    #303340,
-    #353846
-  );
+  background-color:  #20222e;
 }
 
 /*! <--------- Header section --------->*/
@@ -70,4 +56,51 @@ body.dark #copy-text {
     #2f3441 51%,
     #383d4b 100%
   );
+}
+
+body.dark .input-btn-content {
+  background-color: #222738;
+
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.075);
+}
+
+body.dark .alert-message {
+  color: var(--color-white-bone);
+}
+
+body.dark .alert-message2 {
+  color: var(--color-white-bone);
+}
+
+body.dark .input-text {
+  color: var(--color-white-bone);
+}
+
+::placeholder {
+  color: #5e19dd8f;
+}
+
+body.dark ::placeholder {
+  color: rgba(255, 255, 255, 0.678);
+}
+
+body.dark #text-result {
+  color: var(--color-white-bone);
+}
+
+body.dark .text-limit {
+  color: var(--color-white-bone);
+}
+
+/*! <--------- footer section --------->*/
+
+body.dark .social-link {
+  color: var(--color-white-bone);
+}
+
+body.dark .fa-linkedin,
+body.dark .fa-twitter-square,
+body.dark .fa-instagram-square,
+body.dark .fa-github {
+  color: var(--color-white-bone);
 }

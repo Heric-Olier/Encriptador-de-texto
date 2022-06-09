@@ -241,12 +241,6 @@ span {
   /* position: relative; */
 }
 
-body.dark .input-btn-content {
-  background-color: #222738;
-
-  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.075);
-}
-
 .alert-message-box {
   background-color: none;
   position: relative;
@@ -259,32 +253,12 @@ body.dark .input-btn-content {
   font-size: 23px;
 }
 
-body.dark .alert-message {
-  color: var(--color-white-bone);
-}
-
 .alert-message2 {
   text-align: center;
   font-weight: 400;
   color: #430ca8;
   font-size: 17px;
   margin-top: 12px;
-}
-
-body.dark .alert-message2 {
-  color: var(--color-white-bone);
-}
-
-body.dark .input-text {
-  color: var(--color-white-bone);
-}
-
-::placeholder {
-  color: #5e19dd8f;
-}
-
-body.dark ::placeholder {
-  color: rgba(255, 255, 255, 0.678);
 }
 
 #text-result {
@@ -294,10 +268,6 @@ body.dark ::placeholder {
   width: 100%;
   height: 100%;
   color: #430ca8;
-}
-
-body.dark #text-result {
-  color: var(--color-white-bone);
 }
 
 .text-box {
@@ -315,10 +285,6 @@ body.dark #text-result {
   text-align: center;
   color: var(--color-black-dark);
   font-size: 13px;
-}
-
-body.dark .text-limit {
-  color: var(--color-white-bone);
 }
 
 .robot,
@@ -360,22 +326,11 @@ body.dark .text-limit {
   margin-bottom: 6px;
 }
 
-body.dark .social-link {
-  color: var(--color-white-bone);
-}
-
 .fa-github,
 .fa-linkedin,
 .fa-twitter-square,
 .fa-instagram-square {
   color: var(--color-violet);
-}
-
-body.dark .fa-linkedin,
-body.dark .fa-twitter-square,
-body.dark .fa-instagram-square,
-body.dark .fa-github {
-  color: var(--color-white-bone);
 }
 
 .container-social-darkMode {
