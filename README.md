@@ -2,9 +2,13 @@
 
 ---
 
+Link del proyecto abajo 👇
+
+---
+
 ### Tecnologias utilizadas:
 
-<img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" width='30px' ><img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" width='30px' ><img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" width='30px' alt="">
+<img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" width='30px' ><img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" width='30px' ><img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" width='30px' alt=""><img src="https://cdn.icon-icons.com/icons2/1088/PNG/512/1485282157-adobe-photoshop-raster-graphics-editor-cc-creative-cloud_78285.png" width='33px' >
 
 ---
 
@@ -21,12 +25,12 @@ Las "llaves" de encriptación que utilizaremos son las siguientes:
 `La letra "u" es convertida para "ufat"`
 
 **Requisitos:**
+
 - Debe funcionar solo con letras minúsculas
 - No deben ser utilizados letras con acentos ni caracteres especiales
 - Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
 - la pagina debe estar construida visualmente usando HTML y CSS.
 - La pagina debe ser responsiva (opcional)
-- *** Quise implementar un modo oscuro para darle un toque mas elegante y agradable a la vista del usuario
 
 Por ejemplo:
 `"gato" => "gaitober"`
@@ -34,9 +38,14 @@ Por ejemplo:
 
 ---
 
+**Caracteristicas:**
 
-![](https://i.imgur.com/NTW6JZ9.png)
+- Diseño Responsivo - Mobile UI - Desktop UI
+- Modo claro - Modo oscuro con localstorage
+- Notificaciones de alertas personalizadas
 
+![](https://i.imgur.com/KZjAEGP.png)
+![](https://i.imgur.com/QGFfmv9.png)
 
 ---
 
