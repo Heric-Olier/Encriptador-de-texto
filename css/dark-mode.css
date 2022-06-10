@@ -1,5 +1,5 @@
 body.dark {
-  background-color:  #20222e;
+  background-color: #20222e;
 }
 
 /*! <--------- Header section --------->*/
@@ -58,6 +58,12 @@ body.dark #copy-text {
   );
 }
 
+body.dark .alert {
+    background-color: #383d4b;
+    
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.075);
+}
+
 body.dark .input-btn-content {
   background-color: #222738;
 
@@ -94,7 +100,8 @@ body.dark .text-limit {
 
 /*! <--------- footer section --------->*/
 
-body.dark .social-link {
+body.dark .social-link,
+body.dark .name-copy {
   color: var(--color-white-bone);
 }
 
@@ -103,4 +110,13 @@ body.dark .fa-twitter-square,
 body.dark .fa-instagram-square,
 body.dark .fa-github {
   color: var(--color-white-bone);
+}
+
+body.dark .fa-linkedin:hover,
+body.dark .fa-twitter-square:hover,
+body.dark .fa-instagram-square:hover,
+body.dark .social-link:hover,
+body.dark .name-copy:hover,
+body.dark .fa-github:hover {
+  color: #9b9b9c;
 }

@@ -127,6 +127,68 @@ span {
   color: var(--color-violet);
 }
 
+/*! <--------- Notification alert section --------->*/
+
+/* .alert-container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: #9224dc;
+    justify-content: center;
+    align-items: center;
+  
+} */
+
+/* .alert-container.active {
+  z-index: 2;
+} */
+  
+.icon-head {
+  margin-top: 15px;
+  width: 40px;
+}
+
+.alert.active {
+  opacity: 1;
+}
+
+.bounce-in-top.active {
+	-webkit-animation: bounce-in-top 1.1s both;
+	        animation: bounce-in-top 1.1s both;
+}
+
+.alert {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 42%;
+  left: 27%;
+  align-items: center;
+  flex-direction: column;
+  line-height: 30px;
+  opacity: 0;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 22px;
+  color: var(--color-white-bone);
+  padding: 30px 30px;
+  background: var(--color-violet);
+  border-radius: 8px;
+  text-align: center;
+  max-width: 400px;
+  width: 375px;
+  height: 150px;
+  box-shadow: 0 0 25px -8px rgba(0, 0, 0, 0.185);
+  /* -webkit-box-shadow: 1px 3px 7px 1px #2424244b;
+    box-shadow: 1px 3px 7px 1px #2424244b; */
+}
+
+.icon-head {
+  margin-top: 15px;
+  width: 48px;
+}
+
 .section-container-main {
   height: 100%;
 }
@@ -195,7 +257,6 @@ span {
   display: block;
   border: none;
   transition: all 0.2s ease-in-out;
-  
 }
 
 #decrypt:hover {
@@ -314,8 +375,13 @@ span {
 .github:hover,
 .linkedin:hover,
 .twitter:hover,
-.instagram:hover {
+.instagram:hover,
+.fa-github:hover,
+.fa-linkedin:hover,
+.fa-twitter-square:hover,
+.fa-instagram-square:hover {
   transform: scale(1.15);
+  color: #9224dc;
 }
 
 .fa-github,
@@ -353,6 +419,12 @@ span {
   width: 35%;
   align-items: center;
   justify-content: end;
+}
+
+.name-copy {
+  text-decoration: none;
+  color: var(--color-violet);
+  margin-top: 5px;
 }
 
 footer {

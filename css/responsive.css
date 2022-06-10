@@ -23,9 +23,10 @@
     width: 180px;
   }
 
-  .container-social {
+  .container-social,
+  .name-copy {
     position: relative;
-    left: -245px;
+    left: -240px;
   }
 
   .robot {
@@ -47,7 +48,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .buttons {
     flex-direction: row;
   }
@@ -55,5 +56,28 @@
   .logo-title,
   #logo-title_white {
     width: 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .alert {
+    width: 300px;
+    padding: 10px 10px;
+    left: 22%;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .alert {
+    width: 250px;
+    left: 20%;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .alert {
+    font-size: 17px;
+    width: 220px;
+    left: 21%;
   }
 }
