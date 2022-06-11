@@ -48,6 +48,22 @@
   }
 }
 
+@media (max-width: 1570px) {
+  .container-social,
+  .name-copy {
+    left: -200px;
+  }
+}
+
+@media (max-width: 1629px) {
+  .container-social,
+  .name-copy {
+    left: -206px;
+  }
+}
+
+
+
 @media screen and (min-width: 768px) {
   .buttons {
     flex-direction: row;
