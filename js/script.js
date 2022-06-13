@@ -31,8 +31,11 @@ function encriptText() {
 
   if (textResult.length === 0 || /^\s+$/.test(textResult)) {
     notification("El campo de texto esta vacio, Escribe una palabra", "images/icon-head-lose.svg");
+
   } else if (/[^a-z ]/.test(textResult)) {
     notification("Solo se permiten letras minusculas y sin acento", "images/icon-head-lose.svg");
+    
+
   } else {
     textBox.classList.remove("disabled");
     alertMessage.textContent = "";
@@ -40,7 +43,7 @@ function encriptText() {
 
   document.getElementById("text-result").innerHTML = textResult;
   inputText.value = "";
-  inputText.focus();
+  // inputText.focus();
 }
 
 btnEncript.addEventListener("click", encriptText);
@@ -69,7 +72,7 @@ function decryptText() {
 
   document.getElementById("text-result").innerHTML = textResultDec;
   inputText.value = "";
-  inputText.focus();
+  // inputText.focus();
   // if(textBox.classList.contains){textBox.classList.remove("disabled")}
 }
 

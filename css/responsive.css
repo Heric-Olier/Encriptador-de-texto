@@ -75,25 +75,29 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .alert {
-    width: 300px;
-    padding: 10px 10px;
-    left: 22%;
-  }
-}
 
-@media screen and (max-width: 530px) {
+/*phones breakpoint*/
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 14px 0;
+    width: 94%;
+  }
+
+  .input-text {
+    height: 241px;
+    font-size: 26px;
+  }
+
   .alert {
-    width: 250px;
     left: 20%;
+    top: 22%;
+    width: 60%;
+    padding: 5px 5px;
+    font-size: 19px;
   }
-}
 
-@media screen and (max-width: 385px) {
-  .alert {
-    font-size: 17px;
-    width: 220px;
-    left: 21%;
+  .icon-head {
+    width: 41px;
   }
+  
 }

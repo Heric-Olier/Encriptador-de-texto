@@ -348,6 +348,10 @@ span {
   display: none;
 }
 
+.text-box.active {
+  display: block;
+}
+
 .text-limit {
   margin: 7px;
   text-align: center;
