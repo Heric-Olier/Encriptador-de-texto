@@ -79,12 +79,12 @@
 /*phones breakpoint*/
 @media only screen and (max-width: 600px) {
   .container {
-    margin: 17px 0;
-    width: 91.5%;
+    margin: 20px 0;
+    width: 89.5%;
   }
 
   .input-text {
-    height: 233px;
+    height: 220px;
     font-size: 26px;
   }
 
