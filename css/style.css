@@ -176,6 +176,7 @@ span {
   background: var(--color-violet);
   border-radius: 8px;
   text-align: center;
+  transform: translateY(-550px);
   max-width: 400px;
   width: 375px;
   height: 150px;
