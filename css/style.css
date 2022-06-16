@@ -129,21 +129,7 @@ span {
 
 /*! <--------- Notification alert section --------->*/
 
-/* .alert-container {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    background-color: #9224dc;
-    justify-content: center;
-    align-items: center;
-  
-} */
 
-/* .alert-container.active {
-  z-index: 2;
-} */
-  
 .icon-head {
   margin-top: 15px;
   width: 40px;
