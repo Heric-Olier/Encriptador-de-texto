@@ -129,7 +129,6 @@ span {
 
 /*! <--------- Notification alert section --------->*/
 
-
 .icon-head {
   margin-top: 15px;
   width: 40px;
@@ -140,8 +139,8 @@ span {
 }
 
 .bounce-in-top.active {
-	-webkit-animation: bounce-in-top 1.1s both;
-	        animation: bounce-in-top 1.1s both;
+  -webkit-animation: bounce-in-top 1.1s both;
+  animation: bounce-in-top 1.1s both;
 }
 
 .alert {

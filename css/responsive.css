@@ -1,7 +1,6 @@
 @media (min-width: 1440px) {
   .section-container-main {
     display: flex;
-    /* height: 85%; */
     justify-content: center;
   }
 
@@ -62,8 +61,6 @@
   }
 }
 
-
-
 @media screen and (min-width: 768px) {
   .buttons {
     flex-direction: row;
@@ -74,7 +71,6 @@
     width: 150px;
   }
 }
-
 
 /*phones breakpoint*/
 @media only screen and (max-width: 600px) {
@@ -99,5 +95,4 @@
   .icon-head {
     width: 41px;
   }
-  
 }
