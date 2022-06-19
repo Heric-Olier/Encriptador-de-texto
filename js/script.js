@@ -72,8 +72,6 @@ function decryptText() {
 
   document.getElementById("text-result").innerHTML = textResultDec;
   inputText.value = "";
-  // inputText.focus();
-  // if(textBox.classList.contains){textBox.classList.remove("disabled")}
 }
 
 //*! <--------- Function button copy --------->*/
