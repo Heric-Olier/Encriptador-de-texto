@@ -1,4 +1,4 @@
-const alertMessage = document.querySelector(".alert-message-box"); 
+const alertMessage = document.querySelector(".alert-message-box");
 const textBox = document.querySelector(".text-box");
 const textAlert = document.querySelector(".alert");
 const btnEncript = document.getElementById("encript");
@@ -17,6 +17,7 @@ const notification = (text, img) => {
   textAlert.textContent = text;
   textAlert.appendChild(imgAlert);
 };
+inputText.focus();
 
 //*! <--------- Function encrypt --------->*/
 
@@ -30,12 +31,15 @@ function encriptText() {
     .replace(/u/g, "ufat");
 
   if (textResult.length === 0 || /^\s+$/.test(textResult)) {
-    notification("El campo de texto esta vacio, Escribe una palabra", "images/icon-head-lose.svg");
-
+    notification(
+      "El campo de texto esta vacio, Escribe una palabra",
+      "images/icon-head-lose.svg"
+    );
   } else if (/[^a-z ]/.test(textResult)) {
-    notification("Solo se permiten letras minusculas y sin acento", "images/icon-head-lose.svg");
-    
-
+    notification(
+      "Solo se permiten letras minusculas y sin acento",
+      "images/icon-head-lose.svg"
+    );
   } else {
     textBox.classList.remove("disabled");
     alertMessage.textContent = "";
@@ -43,7 +47,7 @@ function encriptText() {
 
   document.getElementById("text-result").innerHTML = textResult;
   inputText.value = "";
-  // inputText.focus();
+  inputText.focus();
 }
 
 btnEncript.addEventListener("click", encriptText);
@@ -62,9 +66,15 @@ function decryptText() {
   document.getElementById("text-result").innerHTML = textResultDec;
 
   if (textResultDec.length === 0 || /^\s+$/.test(textResultDec)) {
-    notification("El campo de texto esta vacio, Escriba una palabra", "images/icon-head-lose.svg");
+    notification(
+      "El campo de texto esta vacio, Escriba una palabra",
+      "images/icon-head-lose.svg"
+    );
   } else if (/[^a-z ]/.test(textResultDec)) {
-    notification("Solo se permiten letras minusculas y sin acento", "images/icon-head-lose.svg");
+    notification(
+      "Solo se permiten letras minusculas y sin acento",
+      "images/icon-head-lose.svg"
+    );
   } else {
     textBox.classList.remove("disabled");
     alertMessage.textContent = "";
@@ -72,6 +82,7 @@ function decryptText() {
 
   document.getElementById("text-result").innerHTML = textResultDec;
   inputText.value = "";
+  inputText.focus();
 }
 
 //*! <--------- Function button copy --------->*/
@@ -81,10 +92,10 @@ function copyToClipBoard() {
   console.log({ copyText });
   navigator.clipboard.writeText(copyText).then(() => {
     if (copyText.length === 0 || /^\s+$/.test(copyText)) {
-        notification("No hay texto que copiar", "images/icon-head-lose.svg");
+      notification("No hay texto que copiar", "images/icon-head-lose.svg");
     } else {
       notification("Texto copiado al portapapeles", "images/icon-head-win.svg");
     }
   });
+  inputText.focus();
 }
-
