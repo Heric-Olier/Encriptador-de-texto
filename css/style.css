@@ -370,7 +370,8 @@ span {
 .fa-linkedin:hover,
 .fa-twitter-square:hover,
 .fa-instagram-square:hover {
-  transform: scale(1.15);
+  transform: scale(1.18);
+  text-decoration: underline;
   color: #9224dc;
 }
 

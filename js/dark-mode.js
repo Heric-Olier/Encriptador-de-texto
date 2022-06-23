@@ -22,6 +22,7 @@ btnSwitch.addEventListener("click", () => {
     imgTitleWhite.classList.add("disable");
     imgRobot.classList.add("active");
     imgRobotDarkMode.classList.add("disable");
+    inputText.focus();
   } else {
     imgSwitch.classList.remove("active");
     imgTitleWhite.classList.remove("disable");
@@ -32,6 +33,7 @@ btnSwitch.addEventListener("click", () => {
     imgTitleWhite.classList.add("active");
     imgRobot.classList.add("disable");
     imgRobotDarkMode.classList.add("active");
+    inputText.focus();
   }
 
   // Guardamos el estado del modo oscuro en el localStorage
