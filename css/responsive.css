@@ -22,12 +22,6 @@
     width: 180px;
   }
 
-  .container-social,
-  .name-copy {
-    position: relative;
-    left: -240px;
-  }
-
   .robot {
     display: block;
   }
@@ -45,20 +39,7 @@
   .robot_dm.disable {
     display: none;
   }
-}
-
-@media (max-width: 1570px) {
-  .container-social,
-  .name-copy {
-    left: -200px;
-  }
-}
-
-@media (max-width: 1629px) {
-  .container-social,
-  .name-copy {
-    left: -206px;
-  }
+  
 }
 
 @media screen and (min-width: 768px) {
@@ -94,5 +75,9 @@
 
   .icon-head {
     width: 41px;
+  }
+
+  footer {
+    top: 52px;
   }
 }
